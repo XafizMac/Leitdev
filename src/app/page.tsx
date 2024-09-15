@@ -1,4 +1,3 @@
-
 import Ai from "@/components/ai/ai";
 import Header from "@/components/header/header";
 import Posts from "@/components/posts/posts";
@@ -22,7 +21,5 @@ export default function Home() {
    <Ai/>
    <ComutiryBanner/>
    </div>
-
-
 
   )}
