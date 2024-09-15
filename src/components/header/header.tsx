@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-
+import { ChevronRight } from 'lucide-react';
 import Link from "next/link";
 import { text } from "stream/consumers";
 import { Badge } from "@/components/ui/badge"
 export default function Header() {
   return (
-    <div className="max-w-6xl h-16  bg-emerald-000  sticky top-0 m-auto bg-slate-50">
+    <div className="max-w-6xl h-16  bg-emerald-000  sticky top-0 m-auto backdrop-blur-md  rounded-3xls">
     <div className="container mx-auto px-4 h-full">
       <div className="flex justify-between items-center h-full">
         <div className=" flex justify-between items-center h-full gap-x-2 "   >
@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-         <Button variant="secondary" className="rounded-3xl h-8">Скачать бесплатно ⇨</Button>
+         <Button variant="secondary" className="rounded-3xl h-8">Скачать бесплатно <ChevronRight className="size-3" /></Button>
       </div>
     </div>
   </div>
