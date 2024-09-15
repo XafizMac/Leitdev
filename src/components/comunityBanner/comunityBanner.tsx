@@ -8,7 +8,7 @@ interface Props {
 
 export const ComutiryBanner: React.FC<Props> = ({ className }) => {
   return (
-    <div className="bg-black text-white rounded-lg p-8 flex justify-between items-center max-w-5xl mx-auto">
+    <div className="bg-black text-white rounded-3xl p-8 flex justify-between items-center max-w-6xl mx-auto h-[200px] mt-20">
       {/* Левая часть: Текст и иконка */}
       <div className="flex items-center space-x-4">
         {/* Иконка Discord */}

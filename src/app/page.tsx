@@ -1,14 +1,28 @@
-import { ComutiryBanner } from '@/components/comunityBanner/page';
+
+import Ai from "@/components/ai/ai";
+import Header from "@/components/header/header";
+import Posts from "@/components/posts/posts";
+import { ComutiryBanner } from '@/components/comunityBanner/comunityBanner';
 import { Content } from '@/components/content/page';
-import Header from '@/components/header/header';
-import { Button } from '@/components/ui/button';
-import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import Link from 'next/link';
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <Content />
-    </div>
-  );
-}
+   <div>
+   <Header/>
+   <Content />
+   <Posts/>
+   <Ai/>
+   <ComutiryBanner/>
+   </div>
+
+
+
+  )}
