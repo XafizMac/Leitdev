@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Link from "next/link";
+import Demo from "@/components/demo/demo";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
    <Content />
    <Posts/>
    <Ai/>
+   <Demo/>
    <ComutiryBanner/>
    </div>
 
